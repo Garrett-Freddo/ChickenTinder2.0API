@@ -4,7 +4,7 @@
 2) cd into kanban-api
 3) run npm install
 4) start up mongodb
-5) create a .env with CONNECTION_STRING="mongodb://localhost:27017" (obviously modify to the port you're using, make sure its in the right folder)
+5) create a .env with CONNECTION_STRING="mongodb://localhost:27017/v1" (obviously modify to the port you're using, make sure its in the right folder)
 6) use yarn start to start the program
 7) if for whatever reason yarn start is not working, try yarn startdev
 8) The server will by default run on localhost 9000
