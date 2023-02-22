@@ -20,8 +20,7 @@ app.use(helmet());
 app.use(cors('*'));
 app.use(compression());
 
-app.use('/v1', indexRouter);
-
+app.use('/', indexRouter);
 app.use(logErrors);
 app.use(clientError);
 app.use(serverError);
